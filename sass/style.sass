@@ -1,0 +1,238 @@
+*
+    box-sizing: border-box
+
+body
+    background: -webkit-linear-gradient(45deg, rgb(28, 121, 163), rgb(62, 206, 98) 100%)
+    background: -moz-linear-gradient(45deg, rgb(28, 121, 163), rgb(62, 206, 98) 100%)
+    background: linear-gradient(45deg, rgb(28, 121, 163), rgb(62, 206, 98) 100%)
+
+.container
+    width: 642px
+    height: 100vh
+    // background-color: green
+    margin: 0 auto
+    display: flex
+    align-items: center
+    justify-content: center
+    &__letter
+        position: relative
+        
+
+.letter
+    display: flex
+    position: relative
+    
+    &__part-left
+        -webkit-box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+        -moz-box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+        box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+        width: 271px 
+        height: 322px
+        background: #FFFFFF
+        border-radius: 20px 0 0 20px
+        
+    &__part-right
+        -webkit-box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+        -moz-box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+        box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+        width: 271px 
+        height: 322px     
+        background: #FFFFFF
+        border-radius: 0 20px 20px 0  
+
+.letter-heart
+    width: 127.69px 
+    height: 112.61px 
+    position: absolute
+    left: 205px
+    bottom: 115px
+    z-index: 2
+.del
+    animation-name: del
+    animation-duration: 2s
+    animation-timing-funciton: ease
+    animation-iteration-count: 1
+
+    
+@keyframes del
+    0%
+        opacity: 1
+    100%
+        opacity: 0
+   
+.container-look_1
+    opacity: 1
+
+.container-look_2
+    opacity: 0
+    display: none
+
+.container-look_3
+    opacity: 0
+    display: none
+
+.container-look_4
+    opacity: 0
+    display: none
+.one
+    position: absolute
+    left: -16px
+    top: 76px
+    background: black
+    border: 0.5px solid black
+    width: 306px
+    transform:  rotate(30deg)
+    -webkit-box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+    -moz-box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+    box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+
+.two
+    position: absolute
+    left: 249px
+    top: 76px
+    background: black
+    border: 0.5px solid black
+    width: 307px
+    transform:  rotate(-30deg)
+    -webkit-box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+    -moz-box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+    box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+    
+.part-left
+    margin-right: 45px 
+
+.posit-two_2
+    position: absolute
+    left: 295px
+    top: 76px
+
+.a_1
+    animation-name: a_1
+    animation-duration: 3s
+    animation-timing-funciton: ease
+    animation-iteration-count: 1
+
+.a_2
+    animation-name: a_2
+    animation-duration: 3s
+    animation-timing-funciton: ease
+    animation-iteration-count: 1
+
+@keyframes a_1
+    0%
+        opacity: 1
+    100%
+        opacity: 0
+
+@keyframes a_2
+    0%
+        opacity: 0
+    100%
+        opacity: 1        
+
+.letter_one
+    background-color: #BBE1E2
+    width: 579px
+    height: 315px
+    border-radius:  20px
+    -webkit-box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+    -moz-box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+    box-shadow: 14px 13px 12px 0px rgba(34, 60, 80, 0.19)
+
+.rose_block_one
+    margin-top: 10px 
+    margin-left: 16px
+
+.rose_block_two
+    margin-left: 16px
+
+.rose_block_one_one
+    margin-right: 390px
+    
+    
+.text_one
+    margin-top: 65px
+    margin-bottom:  65px
+    font-family: 'Lobster', cursive
+    font-size: 25px
+    text-align: center
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5)
+
+.rose_block_two_one
+    margin-right: 390px
+
+@keyframes a_4
+    0%
+        opacity: 0
+    100%
+        opacity: 1        
+
+.a_4
+    animation-name: a_4
+    animation-duration: 3s
+    animation-timing-funciton: ease
+    animation-iteration-count: 1
+
+.height
+    height: 632px
+
+.text
+    margin: 0 auto
+    margin-top: 15px
+    text-align: justify
+    width: 533px
+    height: 414px
+    line-height: 31px
+
+.pichas
+    margin-left: 43px    
+
+.cup
+    margin-right: 115px
+
+.time
+    margin-right: 115px
+
+.text_riad
+    font-family: 'Lobster', cursive
+    font-size: 25px
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5)
+    margin-right:  24px
+
+.riad_box
+    margin-top: 58px
+    display: flex
+    justify-content: end
+   
+@keyframes a_5
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+
+.a_5
+    animation-name: a_5
+    animation-duration: 3s
+    animation-timing-funciton: ease
+    animation-iteration-count: 1
+
+
+.trans
+    animation-name: a_6
+    animation-duration: 4s
+    animation-timing-funciton: ease
+    animation-iteration-count: 1
+
+
+
+@keyframes a_6
+    0%
+       transform: translateY(-1000px)
+    25%
+        transform: translateY(1000px)
+    50%
+        transform: translateY(-1000px)
+    75% 
+        transform: translateY(0px)
+        
+
